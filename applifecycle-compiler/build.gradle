@@ -1,0 +1,14 @@
+plugins {
+    id 'java-library'
+}
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //这是谷歌提供的一个自动服务注册框架，需要用到
+    //注意依赖这里需要分别implementation、annotationProcessor
+    implementation 'com.google.auto.service:auto-service:1.0-rc6'
+    annotationProcessor 'com.google.auto.service:auto-service:1.0-rc6'
+    implementation project(':applifecycle-annotation')
+    implementation 'com.squareup:javapoet:1.12.1'
+}

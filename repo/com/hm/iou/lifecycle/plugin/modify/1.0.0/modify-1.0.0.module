@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hm.iou.lifecycle.plugin",
+    "module": "modify",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "modify-1.0.0.jar",
+          "url": "modify-1.0.0.jar",
+          "size": 22826,
+          "sha512": "0e88b05bf8d6d2efbc803db6576b78123d70c643ebf7717b3956324b89dd156d315e0919768c65120d4d6898b36ee154a0fc6a09c89248825acb24bd0e41c7b2",
+          "sha256": "a8dcb6b793013d2dcc068ff10e62d007a4b3a6ba75ecce6937e465af6b2ae3d6",
+          "sha1": "774be96b60530ccd33b7142ff4da0eb214e6019b",
+          "md5": "9cfbb99b84ab4f90cd50eb773becb07a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "8.1.2"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle-api",
+          "version": {
+            "requires": "8.1.2"
+          }
+        },
+        {
+          "group": "org.javassist",
+          "module": "javassist",
+          "version": {
+            "requires": "3.28.0-GA"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "modify-1.0.0.jar",
+          "url": "modify-1.0.0.jar",
+          "size": 22826,
+          "sha512": "0e88b05bf8d6d2efbc803db6576b78123d70c643ebf7717b3956324b89dd156d315e0919768c65120d4d6898b36ee154a0fc6a09c89248825acb24bd0e41c7b2",
+          "sha256": "a8dcb6b793013d2dcc068ff10e62d007a4b3a6ba75ecce6937e465af6b2ae3d6",
+          "sha1": "774be96b60530ccd33b7142ff4da0eb214e6019b",
+          "md5": "9cfbb99b84ab4f90cd50eb773becb07a"
+        }
+      ]
+    }
+  ]
+}

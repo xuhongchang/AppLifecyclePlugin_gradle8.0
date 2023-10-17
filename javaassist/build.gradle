@@ -1,0 +1,29 @@
+plugins {
+    id 'groovy'
+    id 'maven-publish'
+}
+
+dependencies {
+    implementation gradleApi()
+    implementation localGroovy()
+    implementation 'com.android.tools.build:gradle:3.5.2'
+    implementation 'org.javassist:javassist:3.28.0-GA'
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'xyz.mlya.javaassist'
+            artifactId = 'modify'
+            version = '1.0.0'
+
+            from components.java
+        }
+    }
+
+    repositories {
+        maven {
+            url = "../repo"
+        }
+    }
+}
