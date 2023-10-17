@@ -1,5 +1,6 @@
 # AppLifecyclePlugin_gradle8.0
 组件化Application生命周期分发。基于原来的项目（见参考链接第一个）适配gradle8.0
+需要和原来的依赖一起使用，这只是一个自动注入的gradle插件
 ## 参考链接
 [组件化生命周期分发](https://github.com/hufeiyang/Android-AppLifecycleMgr)
 
