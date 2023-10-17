@@ -1,7 +1,7 @@
 pluginManagement {
     repositories {
-
-        maven { url('./repo') }
+        maven { url 'https://jitpack.io' }
+       // maven { url('./repo') }
         google()
         mavenCentral()
         gradlePluginPortal()
@@ -11,17 +11,17 @@ pluginManagement {
 dependencyResolutionManagement {
    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-
+        maven { url 'https://jitpack.io' }
         google()
         mavenCentral()
     }
 }
 
 rootProject.name = "My Application"
-//include ':app'
+include ':app'
 include ':applifecycle-plugin'
 //include ':javaassist'
 include ':applifecycle-annotation'
 include ':applifecycle-api'
 include ':applifecycle-compiler'
-//include ':module-1'
+include ':module-1'

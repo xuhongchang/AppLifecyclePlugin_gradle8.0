@@ -2,7 +2,7 @@ package com.example.myapplication;
 
 import android.app.Application;
 
-import com.hm.iou.lifecycle.api.ApplicationLifecycleManager;
+import com.hm.lifecycle.api.ApplicationLifecycleManager;
 
 
 public class MyApplication extends Application {

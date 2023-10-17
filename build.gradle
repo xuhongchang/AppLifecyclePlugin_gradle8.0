@@ -4,10 +4,11 @@ buildscript {
         agp_version1 = '7.4.2'
     }
 
-        /*dependencies {
-            classpath 'xyz.mlya.javaassist:modify:1.0.0'
-            classpath 'com.hm.iou.lifecycle.plugin:modify:1.0.0'
-        }*/
+        dependencies {
+         //   classpath 'xyz.mlya.javaassist:modify:1.0.0'
+           // classpath 'com.hm.iou.lifecycle.plugin:modify:1.0.0'
+            classpath  'com.github.xuhongchang:AppLifecyclePlugin_gradle8.0:v0.0.7'
+        }
 
 }// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {

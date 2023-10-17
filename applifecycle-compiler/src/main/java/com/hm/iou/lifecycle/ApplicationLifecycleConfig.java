@@ -19,7 +19,7 @@ public class ApplicationLifecycleConfig {
     public static final String PROXY_CLASS_PREFIX = "AppLife$$";
 
 
-    public static final String APPLICATION_LIFECYCLE_CALLBACK_QUALIFIED_NAME = "com.hm.iou.lifecycle.api.IApplicationLifecycleCallbacks";
+    public static final String APPLICATION_LIFECYCLE_CALLBACK_QUALIFIED_NAME = "com.hm.lifecycle.api.IApplicationLifecycleCallbacks";
 
     public static final String APPLICATION_LIFECYCLE_CALLBACK_SIMPLE_NAME = "IApplicationLifecycleCallbacks";
 

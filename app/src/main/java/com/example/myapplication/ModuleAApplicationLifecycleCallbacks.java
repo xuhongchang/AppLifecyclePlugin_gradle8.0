@@ -4,7 +4,7 @@ import android.content.Context;
 import android.util.Log;
 
 import com.hm.iou.lifecycle.annotation.AppLifecycle;
-import com.hm.iou.lifecycle.api.IApplicationLifecycleCallbacks;
+import com.hm.lifecycle.api.IApplicationLifecycleCallbacks;
 
 /**
  * Created by hjy on 2018/10/23.

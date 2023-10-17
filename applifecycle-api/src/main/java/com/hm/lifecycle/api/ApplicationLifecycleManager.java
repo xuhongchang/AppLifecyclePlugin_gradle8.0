@@ -1,4 +1,4 @@
-package com.hm.iou.lifecycle.api;
+package com.hm.lifecycle.api;
 
 import android.content.Context;
 import android.text.TextUtils;
